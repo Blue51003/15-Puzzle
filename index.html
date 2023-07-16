@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="puzzle.css">
+    <script src="puzzle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="title">15 PUZZLE</div>
+    <div id="desc">This is a 15 sliding game. You can drag the blocks across others.</div>
+    <div class="secline"> 
+        <div><button onclick="newGame();">New Game</button></div>
+        <div>Time: <span id="time"></span></div>
+        <div class="moves">Moves: <span id="moves"></span></div>
+    </div>
+    <div class="thirdline">
+        <div id="board"></div>
+        <div id="leaderboard">Leaderboard</div>
+    </div>
+    
+    </div>
+    <div><button onclick="wonGame();">Check</button></div>
+    
+</body>
+</html>
